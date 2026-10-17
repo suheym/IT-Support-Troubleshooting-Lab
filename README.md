@@ -2,8 +2,6 @@
 
 A hands-on, virtualized IT support lab built to practise and document entry-level Help Desk, Desktop Support, and IT Technician tasks.
 
-> **Project status:** Version 1 documentation and publishing preparation in progress. This is a personal learning lab, not professional employment experience.
-
 ## Lab Environment
 
 | Component | Configuration |
