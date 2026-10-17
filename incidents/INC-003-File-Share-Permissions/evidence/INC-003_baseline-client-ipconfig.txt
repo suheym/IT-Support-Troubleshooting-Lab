@@ -1,0 +1,48 @@
+﻿
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAB-CLIENT01
+   Primary Dns Suffix  . . . . . . . : ad.lab
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : ad.lab
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physical Address. . . . . . . . . : 08-00-27-23-AC-A6
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : fd17:625c:f037:2:9db8:2b:6a1e:f3e7(Preferred) 
+   Temporary IPv6 Address. . . . . . : fd17:625c:f037:2:e87d:7a5f:738a:55ee(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::2d8d:2005:311c:e295%13(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.2.15(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, October 13, 2026 1:12:26 PM
+   Lease Expires . . . . . . . . . . : Wednesday, October 14, 2026 1:12:45 PM
+   Default Gateway . . . . . . . . . : fe80::2%13
+                                       10.0.2.2
+   DHCP Server . . . . . . . . . . . : 10.0.2.2
+   DHCPv6 IAID . . . . . . . . . . . : 101187623
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-32-5F-12-C8-08-00-27-23-AC-A6
+   DNS Servers . . . . . . . . . . . : 192.168.10.1
+                                       fd17:625c:f037:2::3
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter #2
+   Physical Address. . . . . . . . . : 08-00-27-64-93-78
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::1b33:4a92:1a0f:fcae%9(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.50.20(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 302514215
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-32-5F-12-C8-08-00-27-23-AC-A6
+   DNS Servers . . . . . . . . . . . : 192.168.50.10
+   NetBIOS over Tcpip. . . . . . . . : Enabled

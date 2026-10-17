@@ -1,0 +1,12 @@
+﻿
+IdentityReference                 FileSystemRights AccessControlType IsInherited                InheritanceFlags PropagationFlags
+-----------------                 ---------------- ----------------- -----------                ---------------- ----------------
+BUILTIN\Administrators                 FullControl             Allow       False                            None             None
+NT AUTHORITY\SYSTEM                    FullControl             Allow        True ContainerInherit, ObjectInherit             None
+BUILTIN\Administrators                 FullControl             Allow        True ContainerInherit, ObjectInherit             None
+BUILTIN\Users          ReadAndExecute, Synchronize             Allow        True ContainerInherit, ObjectInherit             None
+BUILTIN\Users                           AppendData             Allow        True                ContainerInherit             None
+BUILTIN\Users                          CreateFiles             Allow        True                ContainerInherit             None
+CREATOR OWNER                            268435456             Allow        True ContainerInherit, ObjectInherit      InheritOnly
+
+

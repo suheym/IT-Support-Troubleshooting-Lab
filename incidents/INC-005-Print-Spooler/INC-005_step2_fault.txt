@@ -1,0 +1,26 @@
+INC-005 — Fault Evidence
+Record created: 2026-10-14 00:39:06
+Computer: LAB-CLIENT01
+Evidence type: Retrospective record of observations made during the controlled lab simulation.
+
+ACTION:
+The Print Spooler service was deliberately stopped to simulate service unavailability.
+
+OBSERVED SERVICE STATE:
+State: Stopped
+Startup type: Automatic
+Exit code: 0
+
+OBSERVED DIAGNOSTIC RESULT:
+Get-Printer failed while the Spooler was stopped with:
+The spooler service is not reachable. Ensure the spooler service is running.
+HRESULT: 0x800706ba
+
+INTERPRETATION:
+Printer enumeration was unavailable while the service was stopped. The HRESULT is consistent with the reported service-unreachable condition.
+
+LIMITATION:
+This file was created retrospectively after service recovery. It is not a contemporaneous capture of the fault. A print attempt was not documented while the service was stopped, so this report will not claim that such an attempt failed.
+
+RECOVERY:
+The Spooler was started again. Subsequent evidence records the service running and Microsoft Print to PDF available. The recovery PDF was generated and verified separately.

@@ -1,0 +1,11 @@
+﻿
+
+ComputerName     : 192.168.50.10
+RemoteAddress    : 192.168.50.10
+RemotePort       : 445
+InterfaceAlias   : Ethernet 2
+SourceAddress    : 192.168.50.20
+TcpTestSucceeded : True
+
+
+

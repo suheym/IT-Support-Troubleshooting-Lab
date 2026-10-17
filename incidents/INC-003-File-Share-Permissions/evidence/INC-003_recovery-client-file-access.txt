@@ -1,0 +1,16 @@
+﻿Incident: INC-003
+Test: Recovery of SMB file-share access
+Client: LAB-CLIENT01
+Account: AD\Lab.TestUser
+Share: \\LAB-DC01.ad.lab\DeptShare
+Test file: INC-003_recovery-access-test.txt
+
+Observed results:
+CREATE: PASS
+READ: PASS — INC-003 recovery test
+MODIFY: PASS
+DELETE: PASS
+
+Conclusion: All four file operations succeeded after the share-level
+Change permission was restored.
+Source: Observed PowerShell console output during the recovery test.

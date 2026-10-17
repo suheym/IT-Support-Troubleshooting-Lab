@@ -1,0 +1,7 @@
+﻿
+Name               DistinguishedName                 
+----               -----------------                 
+Domain Controllers OU=Domain Controllers,DC=ad,DC=lab
+
+
+

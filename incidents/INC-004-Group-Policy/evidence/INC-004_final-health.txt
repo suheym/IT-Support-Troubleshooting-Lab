@@ -1,0 +1,83 @@
+=== GPO link ===
+
+
+Name       : lab-users
+LinkedGPOs : LAB-INC004-User-Policy-Test [Enabled=True]
+
+
+
+
+
+=== DC services ===
+
+Name  Status StartType
+----  ------ ---------
+DNS  Running Automatic
+NTDS Running Automatic
+
+
+
+
+=== DC diagnostics ===
+
+Directory Server Diagnosis
+
+
+Performing initial setup:
+
+   Trying to find home server...
+
+   Home Server = LAB-DC01
+
+   * Identified AD Forest. 
+   Done gathering initial info.
+
+
+Doing initial required tests
+
+   
+   Testing server: Default-First-Site-Name\LAB-DC01
+
+      Starting test: Connectivity
+
+         ......................... LAB-DC01 passed test Connectivity
+
+
+
+Doing primary tests
+
+   
+   Testing server: Default-First-Site-Name\LAB-DC01
+
+      Starting test: Advertising
+
+         ......................... LAB-DC01 passed test Advertising
+
+      Starting test: SysVolCheck
+
+         ......................... LAB-DC01 passed test SysVolCheck
+
+      Starting test: NetLogons
+
+         ......................... LAB-DC01 passed test NetLogons
+
+   
+   
+   Running partition tests on : ForestDnsZones
+
+   
+   Running partition tests on : DomainDnsZones
+
+   
+   Running partition tests on : Schema
+
+   
+   Running partition tests on : Configuration
+
+   
+   Running partition tests on : ad
+
+   
+   Running enterprise tests on : ad.lab
+
+

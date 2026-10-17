@@ -1,0 +1,3 @@
+FirstName,LastName,SamAccountName,UserPrincipalName,OU
+Lab,Onboard01,Lab.Onboard01,Lab.Onboard01@ad.lab,"OU=Lab-Users,DC=ad,DC=lab"
+Lab,Onboard02,Lab.Onboard02,Lab.Onboard02@ad.lab,"OU=Lab-Users,DC=ad,DC=lab"

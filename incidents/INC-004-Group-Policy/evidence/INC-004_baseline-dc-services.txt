@@ -1,0 +1,8 @@
+
+Name  Status StartType
+----  ------ ---------
+DNS  Running Automatic
+NTDS Running Automatic
+
+
+

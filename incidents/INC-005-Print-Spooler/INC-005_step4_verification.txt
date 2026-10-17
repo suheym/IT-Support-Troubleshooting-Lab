@@ -1,0 +1,29 @@
+INC-005 — Final Verification
+Date: 2026-10-14 00:36:37
+Computer: LAB-CLIENT01
+
+
+Name      : Spooler
+State     : Running
+StartMode : Auto
+ExitCode  : 0
+
+
+
+
+
+Name                    Type DriverName             PortName   
+----                    ---- ----------             --------   
+Microsoft Print to PDF Local Microsoft Print To PDF PORTPROMPT:
+
+
+
+
+
+FullName      : evidence\INC-005-recovery.pdf
+Length        : 37679
+LastWriteTime : 10/14/2026 12:34:58 AM
+
+
+
+

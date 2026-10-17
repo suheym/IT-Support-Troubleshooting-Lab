@@ -1,0 +1,7 @@
+﻿
+Name      AccountName      AccessControlType AccessRight
+----      -----------      ----------------- -----------
+DeptShare AD\Domain Admins             Allow        Full
+DeptShare AD\Lab.TestUser              Allow      Change
+
+

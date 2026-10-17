@@ -1,0 +1,11 @@
+﻿Incident: INC-003
+Test: Fresh file creation while share permission is removed
+Client: LAB-CLIENT01
+Account: AD\Lab.TestUser
+Share: \\LAB-DC01.ad.lab\DeptShare
+Target file: INC-003_fault-access-test.txt
+
+Observed exception: System.UnauthorizedAccessException
+Observed message: Access is denied.
+Result: File creation failed as expected while the share permission was removed.
+Source: Observed PowerShell console output during the negative test.

@@ -1,0 +1,7 @@
+﻿
+
+InterfaceAlias  : Ethernet 2
+ServerAddresses : {192.168.50.10}
+
+
+

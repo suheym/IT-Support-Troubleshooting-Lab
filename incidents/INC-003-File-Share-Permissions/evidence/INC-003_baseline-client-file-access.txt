@@ -1,0 +1,16 @@
+﻿Incident: INC-003
+Test: Healthy baseline SMB file access
+Client: LAB-CLIENT01
+Account: AD\Lab.TestUser
+Share: \\LAB-DC01.ad.lab\DeptShare
+Test file: INC-003_baseline-access-test.txt
+
+Observed results:
+- Set-Content: succeeded; initial content was read back.
+- Add-Content: succeeded; modified content was read back.
+- Remove-Item: succeeded.
+- Final Test-Path: False.
+
+Conclusion: Create, read, modify, and delete operations succeeded
+under the baseline share and NTFS permissions.
+Source: Observed PowerShell console output from the baseline test.

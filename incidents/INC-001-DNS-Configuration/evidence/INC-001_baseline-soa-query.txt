@@ -1,0 +1,46 @@
+﻿Original Verification — 2026-10-14
+
+Name              : ad.lab
+Type              : SOA
+PrimaryServer     : lab-dc01.ad.lab
+NameAdministrator : hostmaster.ad.lab
+SerialNumber      : 60
+
+Name : lab-dc01.ad.lab
+Type : A
+
+Follow-up Verification — 2026-10-14
+
+Collected: 2026-10-14T22:40:20.3421695+03:00
+Command: Resolve-DnsName -Name ad.lab -Type SOA -Server 192.168.50.10
+
+
+QueryType              : SOA
+Administrator          : hostmaster.ad.lab
+PrimaryServer          : lab-dc01.ad.lab
+NameAdministrator      : hostmaster.ad.lab
+SerialNumber           : 71
+TimeToZoneRefresh      : 900
+TimeToZoneFailureRetry : 600
+TimeToExpiration       : 86400
+DefaultTTL             : 3600
+Name                   : ad.lab
+Type                   : SOA
+CharacterSet           : Unicode
+Section                : Answer
+DataLength             : 40
+TTL                    : 3600
+
+Address      : 192.168.50.10
+IPAddress    : 192.168.50.10
+QueryType    : A
+IP4Address   : 192.168.50.10
+Name         : lab-dc01.ad.lab
+Type         : A
+CharacterSet : Unicode
+Section      : Additional
+DataLength   : 4
+TTL          : 3600
+
+
+

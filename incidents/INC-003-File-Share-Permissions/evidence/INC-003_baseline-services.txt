@@ -1,0 +1,12 @@
+﻿
+
+Name      : DNS
+Status    : Running
+StartType : Automatic
+
+Name      : NTDS
+Status    : Running
+StartType : Automatic
+
+
+

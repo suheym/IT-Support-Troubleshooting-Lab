@@ -1,0 +1,10 @@
+
+
+Name         : LAB-CLIENT01
+Domain       : ad.lab
+PartOfDomain : True
+UserName     : AD\Lab.TestUser
+
+
+
+

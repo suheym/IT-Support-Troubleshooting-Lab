@@ -1,0 +1,23 @@
+﻿# Temporary backup files
+*.bak
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Operating system clutter
+Thumbs.db
+.DS_Store
+# Editor and development clutter
+.vscode/
+.vs/
+__pycache__/
+*.py[cod]
+# Local logs and crash dumps
+*.log
+*.dmp
+
+# Local-only INC-005 PDFs may contain host-specific paths
+/incidents/INC-005-Print-Spooler/evidence/INC-005-baseline.pdf
+/incidents/INC-005-Print-Spooler/evidence/INC-005-recovery.pdf

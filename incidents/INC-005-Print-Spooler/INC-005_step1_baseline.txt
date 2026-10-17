@@ -1,0 +1,35 @@
+INC-005 — Print Spooler Baseline
+Date: 2026-10-14 00:30:41
+Computer: LAB-CLIENT01
+Scenario: Controlled lab simulation; no real user incident claimed.
+
+=== SERVICE STATE ===
+
+
+Name      : Spooler
+State     : Running
+StartMode : Auto
+ExitCode  : 0
+ProcessId : 2316
+
+
+
+
+
+=== INSTALLED PRINTERS ===
+
+Name                    Type DriverName             PortName   
+----                    ---- ----------             --------   
+Microsoft Print to PDF Local Microsoft Print To PDF PORTPROMPT:
+
+
+
+
+=== BASELINE PDF ===
+
+FullName      : evidence\INC-005-baseline.pdf
+Length        : 37591
+LastWriteTime : 10/14/2026 00:24:45
+
+The user confirmed that the PDF opened and displayed the text:
+INC-005 Print Spooler baseline test

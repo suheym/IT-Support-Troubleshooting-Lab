@@ -1,0 +1,28 @@
+﻿CSV-Based AD User Onboarding — Verification Record
+Date: 2026-10-17
+Test environment: LAB-DC01
+Operating system: Windows Server 2025 Standard Evaluation
+Domain: ad.lab
+Target OU: OU=Lab-Users,DC=ad,DC=lab
+
+Tested script: scripts/New-LabUsers.ps1
+Test CSV: scripts/NewUsers.csv
+Test source: Current shared script copied to C:\IT-Lab-Onboarding-Test
+Script SHA-256: 89C6364C3A5D72B5D141FCA677691EE1033827BE57660BE898AAA907D4E4C02A
+CSV SHA-256: 3B40C307814F73F40B5EB8584003996DF4518B752335756D84630907A4495727
+
+Results:
+1. Existing-account handling: PASS. Lab.Onboard01 and Lab.Onboard02 were skipped.
+2. New-account preview: PASS. -WhatIf displayed the planned creation of Lab.Onboard03.
+3. Preview safety: PASS. A post-preview query confirmed Lab.Onboard03 did not exist.
+4. Actual creation: PASS. The script reported Created: Lab.Onboard03.
+5. Account verification: PASS. Lab.Onboard03 is enabled and has the expected display name, UPN, and OU.
+6. Password-change requirement: PASS. pwdLastSet = 0, so a password change is required at next sign-in.
+7. Repeat-run handling: PASS. The existing account was skipped and no new accounts were created.
+
+Security note: The temporary test password is intentionally not recorded.
+This was a lab test, not professional work experience.
+
+Limitations:
+The script uses one temporary password for newly created accounts in a run.
+Creation is not transactional; earlier accounts may remain if a later creation fails.

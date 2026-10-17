@@ -1,0 +1,4 @@
+Timestamp: 2026-10-15 20:24:25 +03:00
+Computer: LAB-DC01
+User: ad\administrator
+Verification: Interactive remote session established after firewall-rule repair.

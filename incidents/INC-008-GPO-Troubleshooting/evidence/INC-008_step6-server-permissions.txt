@@ -1,0 +1,28 @@
+﻿INC-008 - Server-Side Security Configuration
+Timestamp: 2026-10-14 14:54:28 +03:00
+
+=== Target group membership ===
+
+Name          SamAccountName ObjectClass
+----          -------------- -----------
+Lab Test User Lab.TestUser   user       
+
+
+
+=== GPO permissions ===
+
+Trustee                                        Permission
+-------                                        ----------
+INC008-Policy-Targets                            GpoApply
+Domain Admins                 GpoEditDeleteModifySecurity
+Enterprise Admins             GpoEditDeleteModifySecurity
+Authenticated Users                               GpoRead
+ENTERPRISE DOMAIN CONTROLLERS                     GpoRead
+SYSTEM                        GpoEditDeleteModifySecurity
+
+
+
+=== GPO configuration report excerpt ===
+          <Name xmlns="http://www.microsoft.com/GroupPolicy/Types">AD\INC008-Policy-Targets</Name>
+            <q1:Name>IncidentMarker</q1:Name>
+            <q1:String>INC008-EXPECTED</q1:String>

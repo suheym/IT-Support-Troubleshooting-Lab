@@ -1,0 +1,59 @@
+﻿Original Verification — 2026-10-13
+
+DC: \\LAB-DC01.ad.lab
+Address: \\192.168.50.10
+Dom Guid: 38492d7c-6cba-4c62-9c34-e2dab753f513
+Dom Name: ad.lab
+Forest Name: ad.lab
+Dc Site Name: Default-First-Site-Name
+Our Site Name: Default-First-Site-Name
+Flags: PDC GC DS LDAP KDC TIMESERV GTIMESERV WRITABLE DNS_DC DNS_DOMAIN DNS_FOREST CLOSE_SITE FULL_SECRET WS DS_8 DS_9 DS_10 KEYLIST DS_13
+The command completed successfully
+
+
+Follow-up Verification — 2026-10-14
+
+Collected: 2026-10-14T22:44:07.5081013+03:00
+Command: nltest /dsgetdc:ad.lab
+
+DC: \\LAB-DC01.ad.lab
+Address: \\192.168.50.10
+Dom Guid: 38492d7c-6cba-4c62-9c34-e2dab753f513
+Dom Name: ad.lab
+Forest Name: ad.lab
+Dc Site Name: Default-First-Site-Name
+Our Site Name: Default-First-Site-Name
+Flags: PDC GC DS LDAP KDC TIMESERV GTIMESERV WRITABLE DNS_DC DNS_DOMAIN DNS_FOREST CLOSE_SITE FULL_SECRET WS DS_8 DS_9 DS_10 KEYLIST DS_13
+The command completed successfully
+
+
+DNS SRV Record Verification — 2026-10-14
+
+Collected: 2026-10-14T22:43:01.4807220+03:00
+Command: Resolve-DnsName -Name "_ldap._tcp.dc._msdcs.ad.lab" -Type SRV -Server 192.168.50.10
+
+
+QueryType    : SRV
+Target       : lab-dc01.ad.lab
+NameTarget   : lab-dc01.ad.lab
+Priority     : 0
+Weight       : 100
+Port         : 389
+Name         : _ldap._tcp.dc._msdcs.ad.lab
+Type         : SRV
+CharacterSet : Unicode
+Section      : Answer
+DataLength   : 16
+TTL          : 600
+
+Address      : 192.168.50.10
+IPAddress    : 192.168.50.10
+QueryType    : A
+IP4Address   : 192.168.50.10
+Name         : lab-dc01.ad.lab
+Type         : A
+CharacterSet : Unicode
+Section      : Additional
+DataLength   : 4
+TTL          : 3600
+

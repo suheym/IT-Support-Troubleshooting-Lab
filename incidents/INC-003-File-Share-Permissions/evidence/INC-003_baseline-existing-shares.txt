@@ -1,0 +1,10 @@
+﻿
+Name     Path                                    Description        
+----     ----                                    -----------        
+ADMIN$   C:\WINDOWS                              Remote Admin       
+C$       C:\                                     Default share      
+IPC$                                             Remote IPC         
+NETLOGON C:\WINDOWS\SYSVOL\sysvol\ad.lab\SCRIPTS Logon server share 
+SYSVOL   C:\WINDOWS\SYSVOL\sysvol                Logon server share 
+
+

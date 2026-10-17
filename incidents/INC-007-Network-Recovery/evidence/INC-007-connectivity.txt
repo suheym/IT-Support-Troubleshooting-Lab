@@ -1,0 +1,49 @@
+﻿=== Lab adapter configuration ===
+
+
+ComputerName         : LAB-CLIENT01
+InterfaceAlias       : Ethernet 2
+InterfaceIndex       : 9
+InterfaceDescription : Intel(R) PRO/1000 MT Desktop Adapter #2
+CompartmentId        : 1
+NetAdapter           : MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{A918778A-1774-45D4-93AA-16080646334A}", SystemCreationClassName = "CIM_NetworkPort", SystemName = 
+                       "LAB-CLIENT01.ad.lab")
+NetCompartment       : MSFT_NetCompartment (InstanceID = ";55;")
+NetIPv6Interface     : MSFT_NetIPInterface (Name = "C55??55;", CreationClassName = "", SystemCreationClassName = "", SystemName = "")
+NetIPv4Interface     : MSFT_NetIPInterface (Name = "C55?55;", CreationClassName = "", SystemCreationClassName = "", SystemName = "")
+NetProfile           : MSFT_NetConnectionProfile (InstanceID = "{A918778A-1774-45D4-93AA-16080646334A}")
+AllIPAddresses       : {192.168.50.100, fe80::1b33:4a92:1a0f:fcae%9}
+IPv6Address          : {}
+IPv6TemporaryAddress : {}
+IPv6LinkLocalAddress : {fe80::1b33:4a92:1a0f:fcae%9}
+IPv4Address          : {192.168.50.100}
+IPv6DefaultGateway   : 
+IPv4DefaultGateway   : 
+DNSServer            : {MSFT_DNSClientServerAddress (Name = "9", CreationClassName = "", SystemCreationClassName = "", SystemName = "23"), MSFT_DNSClientServerAddress (Name = "9", CreationClassName = "", 
+                       SystemCreationClassName = "", SystemName = "2")}
+Detailed             : False
+
+
+
+
+=== Ping domain controller ===
+
+Pinging 192.168.50.10 with 32 bytes of data:
+Reply from 192.168.50.10: bytes=32 time=1ms TTL=128
+Reply from 192.168.50.10: bytes=32 time=1ms TTL=128
+Reply from 192.168.50.10: bytes=32 time=1ms TTL=128
+Reply from 192.168.50.10: bytes=32 time=1ms TTL=128
+
+Ping statistics for 192.168.50.10:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 1ms, Average = 1ms
+
+=== Resolve domain controller DNS name ===
+
+Name            Type TTL  Section IPAddress    
+----            ---- ---  ------- ---------    
+LAB-DC01.ad.lab A    3600 Answer  192.168.50.10
+
+
+

@@ -1,0 +1,36 @@
+INC-009 - Controlled W32Time Recovery
+Capture time: 2026-10-14 18:09:15
+
+=== Service ===
+
+
+Name      : W32Time
+Status    : Running
+StartType : Manual
+
+
+
+
+=== Time Status ===
+Leap Indicator: 0(no warning)
+Stratum: 6 (secondary reference - syncd by (S)NTP)
+Precision: -23 (119.209ns per tick)
+Root Delay: 0.0533795s
+Root Dispersion: 12.9676107s
+ReferenceId: 0xC0A8320A (source IP:  192.168.50.10)
+Last Successful Sync Time: 10/14/2026 6:04:42 PM
+Source: LAB-DC01.ad.lab 
+Poll Interval: 10 (1024s)
+
+
+=== Time Peers ===
+#Peers: 1
+
+Peer: LAB-DC01.ad.lab
+State: Active
+Time Remaining: 731.8918929s
+Mode: 3 (Client)
+Stratum: 5 (secondary reference - syncd by (S)NTP)
+PeerPoll Interval: 17 (out of valid range)
+HostPoll Interval: 10 (1024s)
+

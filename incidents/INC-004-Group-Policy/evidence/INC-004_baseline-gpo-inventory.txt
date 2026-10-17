@@ -1,0 +1,28 @@
+﻿=== ALL DOMAIN GPOS ===
+
+
+DisplayName      : Default Domain Policy
+Id               : 31b2f340-016d-11d2-945f-00c04fb984f9
+GpoStatus        : AllSettingsEnabled
+CreationTime     : 10/11/2026 6:05:04 AM
+ModificationTime : 10/11/2026 6:06:44 AM
+
+DisplayName      : Default Domain Controllers Policy
+Id               : 6ac1786c-016f-11d2-945f-00c04fb984f9
+GpoStatus        : AllSettingsEnabled
+CreationTime     : 10/11/2026 6:05:04 AM
+ModificationTime : 10/11/2026 6:05:04 AM
+
+
+
+
+=== DOMAIN GPO INHERITANCE ===
+
+
+Name                  : ad.lab
+GpoInheritanceBlocked : False
+GpoLinks              : {Default Domain Policy}
+
+
+
+

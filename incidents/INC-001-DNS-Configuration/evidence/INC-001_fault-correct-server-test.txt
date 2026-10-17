@@ -1,0 +1,13 @@
+﻿
+
+Name              : ad.lab
+Type              : SOA
+PrimaryServer     : lab-dc01.ad.lab
+NameAdministrator : hostmaster.ad.lab
+SerialNumber      : 60
+
+Name : lab-dc01.ad.lab
+Type : A
+
+
+

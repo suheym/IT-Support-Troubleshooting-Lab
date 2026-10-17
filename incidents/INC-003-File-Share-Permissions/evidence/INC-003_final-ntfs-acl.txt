@@ -1,0 +1,13 @@
+﻿
+
+Owner          : BUILTIN\Administrators
+AccessToString : BUILTIN\Administrators Allow  FullControl
+                 NT AUTHORITY\SYSTEM Allow  FullControl
+                 BUILTIN\Administrators Allow  FullControl
+                 BUILTIN\Users Allow  ReadAndExecute, Synchronize
+                 BUILTIN\Users Allow  AppendData
+                 BUILTIN\Users Allow  CreateFiles
+                 CREATOR OWNER Allow  268435456
+
+
+

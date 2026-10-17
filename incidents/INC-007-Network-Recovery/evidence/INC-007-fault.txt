@@ -1,0 +1,19 @@
+INC-007 — Initial Fault-State Record
+
+Evidence type: Text record of diagnostic output shared during troubleshooting.
+System: LAB-CLIENT01
+Adapter: Ethernet 2
+MAC address: 08-00-27-64-93-78
+
+Initial observed state:
+- IPv4 address: 169.254.236.19
+- Subnet mask: 255.255.0.0
+- DHCP enabled: Yes
+- DNS server configured: 192.168.50.10
+- Default gateway: None
+
+Interpretation:
+The lab adapter had an APIPA address instead of an address from the expected 192.168.50.0/24 DHCP scope.
+
+Limitation:
+This file documents the initial output shared during the troubleshooting session. It is not an original command transcript captured directly into a file at the time of the fault. The underlying cause was not established.

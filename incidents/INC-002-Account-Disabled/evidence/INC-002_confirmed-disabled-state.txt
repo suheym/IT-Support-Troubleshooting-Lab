@@ -1,0 +1,8 @@
+﻿
+
+SamAccountName    : Lab.TestUser
+Enabled           : False
+DistinguishedName : CN=Lab Test User,CN=Users,DC=ad,DC=lab
+
+
+

@@ -1,0 +1,50 @@
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+c Microsoft Corporation. All rights reserved.
+
+Created on ?10/?14/?2026 at 1:53:26 PM
+
+
+
+RSOP data for AD\Lab.TestUser on LAB-CLIENT01 : Logging Mode
+-------------------------------------------------------------
+
+OS Configuration:            Member Workstation
+OS Version:                  10.0.26300
+Site Name:                   N/A
+Roaming Profile:             N/A
+Local Profile:               C:\Users\<USER_PROFILE>
+Connected over a slow link?: No
+
+
+USER SETTINGS
+--------------
+    CN=Lab Test User,OU=Lab-Users,DC=ad,DC=lab
+    Last time Group Policy was applied: 10/14/2026 at 1:21:00 PM
+    Group Policy was applied from:      LAB-DC01.ad.lab
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        AD
+    Domain Type:                        Windows 2008 or later
+    
+    Applied Group Policy Objects
+    -----------------------------
+        LAB-INC004-User-Policy-Test
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+    The user is a part of the following security groups
+    ---------------------------------------------------
+        Domain Users
+        Everyone
+        BUILTIN\Users
+        NT AUTHORITY\INTERACTIVE
+        CONSOLE LOGON
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        LOCAL
+        Authentication authority asserted identity
+        Medium Mandatory Level
+        

@@ -1,0 +1,4 @@
+﻿Command: runas /user:AD\Lab.TestUser "cmd /k whoami"
+Observed output:
+ad\lab.testuser
+Result: PASS — fresh authentication succeeded after the account was re-enabled.

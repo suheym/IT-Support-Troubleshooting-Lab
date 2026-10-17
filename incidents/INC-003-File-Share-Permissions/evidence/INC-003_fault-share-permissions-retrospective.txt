@@ -1,0 +1,27 @@
+﻿INC-003 — Retrospective note: fault-time SMB share permissions
+Date documented: 2026-10-13
+Share: DeptShare
+Server: LAB-DC01
+Share path: C:\LabShares\DeptShare
+
+Evidence type: Retrospective summary, NOT a contemporaneous transcript.
+
+Source and limitation:
+During the incident session, the output of Get-SmbShareAccess for
+DeptShare was observed after Revoke-SmbShareAccess removed the
+AD\Lab.TestUser share permission. The observed output showed
+AD\Domain Admins with Allow / Full access, and no AD\Lab.TestUser
+entry. The fault-time output was not saved directly to a file at
+that moment. This note records that observed result from the session;
+it is not a raw capture and should not be represented as one.
+
+Related contemporaneous evidence:
+- INC-003_fault-negative-access.txt
+- INC-003_fault-ntfs-acl-check.txt
+
+Interpretation:
+The client received Access is denied when attempting to create a file
+during the fault. The NTFS ACL inspection during the fault matched
+the baseline ACL. Together with the observed share ACL, these results
+support the conclusion that the simulated fault was the removal of
+the user's SMB share permission.

@@ -1,0 +1,34 @@
+﻿=== DHCP Server service ===
+
+
+Status    : Running
+Name      : DHCPServer
+StartType : Automatic
+
+
+
+
+=== DHCP IPv4 scope ===
+
+ScopeId      SubnetMask    Name   State  StartRange     EndRange       LeaseDuration
+-------      ----------    ----   -----  ----------     --------       -------------
+192.168.50.0 255.255.255.0 IT-LAB Active 192.168.50.100 192.168.50.199 8.00:00:00   
+
+
+
+=== DHCP interface binding ===
+
+InterfaceAlias IPAddress     BindingState
+-------------- ---------     ------------
+Ethernet       192.168.50.10 True        
+
+
+
+=== DHCP lease ===
+
+IPAddress      ScopeId      ClientId          HostName            AddressState LeaseExpiryTime      
+---------      -------      --------          --------            ------------ ---------------      
+192.168.50.100 192.168.50.0 08-00-27-64-93-78 LAB-CLIENT01.ad.lab Active       10/23/2026 4:53:49 PM
+
+
+
